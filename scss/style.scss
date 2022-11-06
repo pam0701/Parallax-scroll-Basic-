@@ -1,0 +1,46 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  text-align: center;
+  font: bold 100px/100vh "arial";
+  color: white;
+
+  section {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    &.skyblue {
+      background-color: skyblue;
+    }
+    &.orange {
+      background-color: orange;
+    }
+    &.coral {
+      background-color: coral;
+    }
+    &.blue {
+      background-color: dodgerblue;
+    }
+  }
+
+  /* .box {
+    width: 200px;
+    height: 200px;
+    background-color: skyblue;
+    margin-bottom: 50px;
+    text-align: center;
+    line-height: 100px;
+  }
+  .box0 {
+    height: 100vh;
+    background-color: orange;
+  } */
+}
